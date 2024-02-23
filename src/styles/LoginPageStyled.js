@@ -35,7 +35,7 @@ const slide = keyframes`
 export const Container = styled.div`
     position: absolute;
     width: ${theme.sizes.containerWidth};
-    height: ${theme.sizes.containerHeight};
+    height: 100vh;
     overflow: hidden;
 
     display: flex;

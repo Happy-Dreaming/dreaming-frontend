@@ -2,12 +2,14 @@ const theme = {
     colors: {
         primary: "#53AAAF",
         secondary: "#FFDC62",
-        // 필요한 다른 색상들을 여기에 추가할 수 있습니다.
+        primary_character: "#0F5D62",
+        secondary_character: "#626020",
+        third_character: "#817F33",
+        box: "#F8F7EA",
     },
     sizes: {
         containerWidth: "100vw",
-        containerHeight: "100vh",
-        // 필요한 다른 사이즈들을 여기에 추가할 수 있습니다.
+        containerHeight: "90vh", // navbar 때문에 90vh
     },
 };
 
