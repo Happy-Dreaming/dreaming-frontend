@@ -18,19 +18,19 @@ function Navbar() {
                     Diary
                 </div>
             </StyledLink>
-            <StyledLink to="/main" color={theme.colors.secondary}>
-                <div className="menu1">
-                    <div className="menuIcon">🖤</div>
-                    Dict
-                </div>
-            </StyledLink>
-            <StyledLink to="/main" color={theme.colors.secondary}>
+            <StyledLink to="/community" color={theme.colors.secondary}>
                 <div className="menu1">
                     <div className="menuIcon">🖤</div>
                     Comm
                 </div>
             </StyledLink>
-            <StyledLink to="/main" color={theme.colors.secondary}>
+            <StyledLink to="/dictionary" color={theme.colors.secondary}>
+                <div className="menu1">
+                    <div className="menuIcon">🖤</div>
+                    Dict
+                </div>
+            </StyledLink>
+            <StyledLink to="/lottoMap" color={theme.colors.secondary}>
                 <div className="menu1">
                     <div className="menuIcon">🖤</div>
                     Lotto
