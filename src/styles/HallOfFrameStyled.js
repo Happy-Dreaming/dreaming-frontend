@@ -7,17 +7,26 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
 
     .title {
         font-size: 1.3rem;
         font-weight: bold;
         margin: 0;
-        color: ${theme.colors.secondary_character};
+        /* color: ${theme.colors.secondary_character}; */
+        color: ${(props) =>
+            props.page === "community"
+                ? theme.colors.secondary
+                : theme.colors.secondary_character};
     }
     .subTitle {
         font-size: 0.9rem;
         margin-top: 5px;
-        color: ${theme.colors.secondary_character};
+        /* color: ${theme.colors.secondary_character}; */
+        color: ${(props) =>
+            props.page === "community"
+                ? theme.colors.secondary
+                : theme.colors.secondary_character};
     }
 
     .hallOfFrame {
@@ -30,7 +39,11 @@ export const Container = styled.div`
     .rankBox {
         width: 80vw;
         height: 8vh;
-        background-color: ${theme.colors.box};
+        /* background-color: ${theme.colors.box}; */
+        background-color: ${(props) =>
+            props.page === "community"
+                ? theme.colors.secondary
+                : theme.colors.box};
         margin: 6px 0;
         border-radius: 0.5rem;
 
@@ -49,7 +62,11 @@ export const Container = styled.div`
 
         font-size: 1.8rem;
         font-weight: bold;
-        color: ${theme.colors.secondary_character};
+        /* color: ${theme.colors.secondary_character}; */
+        color: ${(props) =>
+            props.page === "community"
+                ? theme.colors.primary
+                : theme.colors.secondary_character};
     }
 
     .diary {
@@ -58,18 +75,27 @@ export const Container = styled.div`
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        justify-content: center;
     }
 
     .diary_title {
         margin: 0;
         font-size: 0.9rem;
         font-weight: bold;
-        color: ${theme.colors.secondary_character};
+        /* color: ${theme.colors.secondary_character}; */
+        color: ${(props) =>
+            props.page === "community"
+                ? theme.colors.primary
+                : theme.colors.secondary_character};
     }
 
     .diary_preview {
         margin: 3px 0 0 0;
         font-size: 0.8rem;
-        color: ${theme.colors.third_character};
+        /* color: ${theme.colors.third_character}; */
+        color: ${(props) =>
+            props.page === "community"
+                ? theme.colors.primary
+                : theme.colors.third_character};
     }
 `;

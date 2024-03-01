@@ -11,7 +11,7 @@ function MainPage() {
                 <LinkToDiary />
             </div>
             <div className="award">
-                <HallOfFrame />
+                <HallOfFrame page="main" />
             </div>
         </Container>
     );

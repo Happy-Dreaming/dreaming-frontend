@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Community from "./pages/Community.js";
+import Community from "./pages/CommunityPage.js";
 import Dictionary from "./pages/Dictionary.js";
 import Lotto from "./pages/Lotto.js";
 import LottoMap from "./pages/LottoMap.js";

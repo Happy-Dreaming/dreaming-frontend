@@ -3,9 +3,10 @@ import { Container } from "../styles/HallOfFrameStyled.js";
 // import { StyledLink } from "../styles/StyledLink.js";
 import theme from "../styles/theme";
 
-function HallOfFrame() {
+function HallOfFame({ page }) {
     return (
-        <Container>
+        // styled-component를 사용하려면 전체 태그에 써야한다.
+        <Container page={page}>
             <div className="intro">
                 <p className="title">명예의 전당</p>
                 <p className="subTitle">
@@ -40,4 +41,4 @@ function HallOfFrame() {
     );
 }
 
-export default HallOfFrame;
+export default HallOfFame;
