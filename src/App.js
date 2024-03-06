@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Community from "./pages/CommunityPage.js";
 import Dictionary from "./pages/DictionaryPage.js";
-import Lotto from "./pages/Lotto.js";
+import Lotto from "./pages/LottoPage.js";
 import LottoMap from "./pages/LottoMapPage.js";
 import PostDiary from "./pages/PostDiary.js";
 import Statistics from "./pages/Statistics.js";
