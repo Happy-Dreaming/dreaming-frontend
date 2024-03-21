@@ -1,16 +1,18 @@
 import React from "react";
-import styled from "styled-components";
-
-const Container = styled.div`
-    h1 {
-        color: #2d6dcc;
-    }
-`;
+import { Container } from "../styles/MainPageStyled.js";
+import LinkToDiary from "../components/LinkToDiary.js";
+import HallOfFrame from "../components/HallOfFame.js";
 
 function MainPage() {
     return (
         <Container>
-            <h1>MainPage</h1>
+            <div className="banner">Banner</div>
+            <div className="diary">
+                <LinkToDiary />
+            </div>
+            <div className="award">
+                <HallOfFrame page="main" />
+            </div>
         </Container>
     );
 }
